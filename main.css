@@ -10,3 +10,56 @@
     margin-left: 30px;
 }
 
+.mapa {
+    width: 570px;
+    height: 300px;
+}
+
+.sectioninicio4__tituloimagen-novedades, .sectioninicio2__parrafo{
+    font-size: 20px;
+}
+
+/*mirar esta parte*/
+@media(max-width: 999px) { /*tamaño para telefono en modo vertical y horizontal*/
+    .sectioninicio4__tituloimagen-novedades,.sectioninicio2__parrafo {
+        font-size: 14px;
+
+    }
+}
+
+@media(min-width:576px) and (max-width: 767px) { /*tamaño para telefono en modo vertical y horizontal*/
+    .sectioninicio4__tituloimagen-novedades,.sectioninicio2__parrafo {
+        font-size: 12px;
+    }
+
+    .mapa {
+        height: 200px;
+    }
+}
+
+
+ 
+
+/*responsive de Bootstrap 
+xs: 0,
+sm: 576px,+
+md: 768px a 991px +
+lg: 992px a 1199px +
+xl: 1200px, +
+xxl: 1400px +
+
+margin y padding
+
+m - for classes that set margin
+p - for classes that set padding
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+
+*/
