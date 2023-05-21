@@ -84,11 +84,11 @@
 
 @media(max-width: 575px) { /*tamaño para telefono en modo vertical y horizontal*/
     .tituloinicio{
-        font-size: 30px;
+        font-size: 35px;
     }
     .logo-inicio {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 
 }
