@@ -1,13 +1,58 @@
+/* Fuentes de Google Descargados */
+@font-face {
+    font-family: 'Bangers';
+    src: url(./imagenes/FUENTE-LETRA/Bangers/Bangers-Regular.ttf);
+}
+@font-face {
+    font-family: 'ArchivoBlack';
+    src: url(./imagenes/FUENTE-LETRA//Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bungee_Inline';
+    src: url(./imagenes/FUENTE-LETRA/Bungee_Inline/BungeeInline-Regular.ttf);
+}
+@font-face {
+    font-family: 'Carter_One';
+    src: url(./imagenes/FUENTE-LETRA/Carter_One/CarterOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Fugaz_One';
+    src: url(./imagenes/FUENTE-LETRA/Fugaz_One/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Knewave';
+    src: url(./imagenes/FUENTE-LETRA/Knewave/Knewave-Regular.ttf);
+}
+@font-face {
+    font-family: 'Wallpoet';
+    src: url(./imagenes/FUENTE-LETRA//Wallpoet/Wallpoet-Regular.ttf);
+}
+@font-face {
+    font-family: 'Audiowide';
+    src: url(./imagenes/FUENTE-LETRA/Audiowide/Audiowide-Regular.ttf);
+}
+
+
+
 .fondopagina{
     background-image: url(./imagenes/fondo1.jpeg);
     background-repeat:round;
 }
 
 .tituloinicio{
+    font-family: 'Bungee_Inline' ;
+    letter-spacing: -3px;
+    font-style:italic;
+    /* font-weight: bold; */
     font-size: 50px;
     color: white;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.navegacion {
+    font-family:'Audiowide' ;
+    font-size: 20px;
 }
 
 .mapa {

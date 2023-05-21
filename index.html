@@ -28,9 +28,12 @@
     </svg>
     <div class="fondopagina">
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">Inicio</a>
+            <nav class="navbar navbar-expand-lg bg-dark-subtle navegacion">
+                <div class="container-fluid text-white">
+                    <a class="navbar-brand" href="./index.html">
+                        <img  src="./imagenes/logoEmpresa/logo-emp.png"  width="40" height="40" class= "border-2 rounded-circle border border-black d-inline-block" alt="logo de pagina">
+                        Inicio
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,7 +41,7 @@
                     <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
                         <ul class="navbar-nav nav ">
                             <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pagina/contacto.html">Contacto</a>
@@ -46,20 +49,23 @@
                             <li class="nav-item">
                                 <a class="nav-link " href="./pagina/servicio.html">Servicio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <h1 class="tituloinicio">World Cold</h1>
+        <h1 class="tituloinicio">COOL POWER
+            <img  src="./imagenes/logoEmpresa/logo-emp.png"  width="120" height="120" class= "border-2 rounded-circle border border-black d-inline-block" alt="logo de pagina">
+        </h1>
+        <!-- <div class="mt-3 text-center align-self-xs-left">
+            <img  src="./imagenes/logoEmpresa/logo fondo negro.jpg"  width="190" height="190" class= " img-fluid border-4 rounded-circle border border-black d-inline-block align-top" alt="logo de pagina">
+        </div> -->
+        
 
         <section class="sectioninicio">
             <div class="container">
-                <div class="row my-4 g-4 justify-content-md-center justify-content-sm-center px-4 text-center">
+                <div class="row my-1 g-4 justify-content-md-center justify-content-sm-center px-4 text-center">
                     <div class="col-md-6 col-sm-11 col-xl-6 col-lg-6  text-white align-self-center">
                         <h2 class="sectioninicio__textoinicio">Servicio Técnico y Venta de Insumo para Refrigeracion</h2>
                     </div>
@@ -172,13 +178,13 @@
             <div class="container text-center text-white my-4">
                 <div class="row py-4 g-3 text-center justify-content-center justify-content-sm-center justify-content-xl-around justify-content-md-between justify-content-lg-between px-4">
                     <div class="col-10 col-sm-4 col-md-4 col-xl-4 col-lg-3">
-                        <h5 class="sectioninicio4__tituloimagen-novedades">kit-intalacion</h5>
-                        <img src="./imagenes/kit-intalacion.webp" class="img-fluid border border-secondary border border-5 rounded" alt="...">
+                        <!-- IMAGEN FUNCIONA COMO BUTTON MEDIDAS DE CAÑO -->
+                        <h5 class="sectioninicio4__tituloimagen-novedades">Medidas de Caños</h5>
+                        <img src="./imagenes/medidas-caños.jpg" type="button" data-bs-toggle="modal" data-bs-target="#medidascaños" class="img-fluid border border-secondary border border-5 rounded" alt="...">
                     </div>
                     <div class="col-10 col-sm-4 col-md-4 col-xl-4 col-lg-3">
-                        <h5 class="sectioninicio4__tituloimagen-novedades">Placas Universal</h5>
-                        <img src="./imagenes/Placa universal de aire.jpeg" class="img-fluid border border-secondary border border-5 rounded "
-                            alt="...">
+                        <h5 class="sectioninicio4__tituloimagen-novedades">Medidas Mensulas</h5>
+                        <img src="./imagenes/tamaño-mensula-chico.jpeg" type="button" data-bs-toggle="modal" data-bs-target="#medidasmensulas" class="img-fluid border border-secondary border border-5 rounded" alt="...">
                     </div>
                     <div class="col-10 col-sm-4 col-md-4 col-xl-4 col-lg-3">
                         <h5 class="sectioninicio4__tituloimagen-novedades">Protectores Termicos</h5>
@@ -194,6 +200,34 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="secyioninicio5">
+            
+            <!-- IMAGEN GRANDE MEDIDAS DE CAÑO -->
+            <div class="modal fade" id="medidascaños" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div data-bs-theme="dark">
+                    <button type="button" class=" position-absolute top-0 end-0 btn-close btn btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-dialog modal-sm  modal-lg  modal-dialog-centered">
+                    <div class="modal-content">                 
+                        <img src="./imagenes/imagenesGrandes/MEDIDAS CAÑOS.jpg" class="img-fluid border border-secondary border border-5 rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGEN GRANDE MEDIDAS DE MENSULA -->
+            <div class="modal fade" id="medidasmensulas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div data-bs-theme="dark">
+                    <button type="button" class=" position-absolute top-0 end-0 btn-close btn btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-dialog modal-sm  modal-lg  modal-dialog-centered">
+                    <div class="modal-content">                 
+                        <img src="./imagenes/imagenesGrandes/tamaño-mensula.jpeg" class="img-fluid border border-secondary border border-5 rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+            
         </section>
 
         <footer class="text-center text-lg-start bg-white text-muted">
