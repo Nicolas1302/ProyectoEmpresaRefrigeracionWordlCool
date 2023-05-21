@@ -82,6 +82,19 @@
     }
 }
 
+@media(max-width: 575px) { /*tamaño para telefono en modo vertical y horizontal*/
+    .tituloinicio{
+        font-size: 30px;
+    }
+    .logo-inicio {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+
+
  
 
 /*responsive de Bootstrap 
