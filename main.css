@@ -86,12 +86,6 @@
     }
 }
 
-@media(max-width: 575px) { /*tamaño en sm: 576px a 767px*/
-    .novedades__tamañovideo {
-        width:185px;
-        height:322px
-    }
-}
 
 @media(max-width: 999px) { /*tamaño para telefono en modo vertical y horizontal*/
     .sectioninicio4__tituloimagen-novedades,.sectioninicio2__parrafo {
