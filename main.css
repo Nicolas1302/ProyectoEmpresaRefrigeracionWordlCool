@@ -52,7 +52,7 @@
 
 .navegacion {
     font-family:'Audiowide' ;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .mapa {
@@ -65,6 +65,34 @@
 }
 
 /*mirar esta parte*/
+@media(min-width:992px) and (max-width: 1199px) { /*tamaño en lg:;992px a 1199px*/
+    .novedades__tamañovideo {
+        width:270px;
+        height:470px
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) { /*tamaño en md: 768px a 991px*/
+    .novedades__tamañovideo {
+        width:200px;
+        height:350px
+    }
+}
+
+@media(min-width:576px) and (max-width: 767px) { /*tamaño en sm: 576px a 767px*/
+    .novedades__tamañovideo {
+        width:185px;
+        height:322px
+    }
+}
+
+@media(max-width: 575px) { /*tamaño en sm: 576px a 767px*/
+    .novedades__tamañovideo {
+        width:185px;
+        height:322px
+    }
+}
+
 @media(max-width: 999px) { /*tamaño para telefono en modo vertical y horizontal*/
     .sectioninicio4__tituloimagen-novedades,.sectioninicio2__parrafo {
         font-size: 14px;
@@ -98,11 +126,13 @@
 
 
 
+
+
  
 
 /*responsive de Bootstrap 
 xs: 0,
-sm: 576px,+
+sm: 576px a 767px
 md: 768px a 991px +
 lg: 992px a 1199px +
 xl: 1200px, +
