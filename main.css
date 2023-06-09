@@ -118,6 +118,12 @@
 
 }
 
+.clear-mode {
+    background-image: url(./imagenes/fondo3.jpeg);
+    color: black;
+    transition: 2s;
+}
+
 
 
 
